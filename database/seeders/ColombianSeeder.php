@@ -2,9 +2,9 @@
 
 namespace Database\Seeders;
 
+use App\Models\Colombian;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Colombian;
 
 class ColombianSeeder extends Seeder
 {
@@ -13,7 +13,7 @@ class ColombianSeeder extends Seeder
      */
     public function run(): void
     {
-        Colombian::factory(10)
-        ->create(); 
+      Colombian::factory(10)->create();
     }
 }
+
